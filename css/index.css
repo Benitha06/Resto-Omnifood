@@ -79,3 +79,101 @@ button {
     width: 100%;
     height: 430px;
 }
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+.second {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.third {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+h2 {
+    font-family: merienda;
+    font-weight: 400;
+    padding-left: 100px;
+}
+.one {
+    padding-top: 60px;
+}
+.two {
+    padding-top: 60px;
+}
+.three {
+    padding-top: 60px;
+}
+.conclusion {
+    margin: 10px 500px;
+    
+}
+.conclusion p {
+    background-color: red;
+    padding-left: 500px;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+
+#products {
+    background-color: rgb(233, 240, 238);
+    width: 97%;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.product-1 {
+    background-color: blue;
+    width: 20%;
+    
+    
+}
+.product-2 {
+    background-color: blue;
+    width: 20%;
+    
+    
+}
+.product-3 {
+    background-color: blue;
+    width: 20%;
+    
+    
+}
+.product-4 {
+    background-color: blue;
+    width: 20%;
+    
+    
+}
+.product-1 img {
+    width: 90%;
+    height: 120px;
+    padding-left: 10px;
+}
+.btn {
+    padding-left: 50px;
+
+}
+.product-2 img {
+    width: 90%;
+    height: 120px;
+    padding-left: 10px;
+}
+.product-3 img {
+    width: 90%;
+    height: 120px;
+    padding-left: 10px;
+}
+.product-4 img {
+    width: 90%;
+    height: 120px;
+    padding-left: 10px;
+}
