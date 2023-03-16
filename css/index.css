@@ -124,20 +124,22 @@ h2 {
 
 #products {
     background-color: rgb(233, 240, 238);
-    width: 97%;
+    width: 98%;
     height: 400px;
     padding-left: 20px;
     padding-top: 20px;
+    display: flex;
+    gap: 20px;
 }
 .product-1 {
     background-color: blue;
-    width: 20%;
+    width: 23%;
     
     
 }
 .product-2 {
     background-color: blue;
-    width: 20%;
+    width: 23%;
     
     
 }
@@ -155,7 +157,7 @@ h2 {
 }
 .product-1 img {
     width: 90%;
-    height: 120px;
+    height: 150px;
     padding-left: 10px;
 }
 .btn {
@@ -164,16 +166,27 @@ h2 {
 }
 .product-2 img {
     width: 90%;
-    height: 120px;
+    height: 150px;
     padding-left: 10px;
 }
 .product-3 img {
     width: 90%;
-    height: 120px;
+    height: 150px;
     padding-left: 10px;
 }
 .product-4 img {
     width: 90%;
-    height: 120px;
+    height: 150px;
     padding-left: 10px;
+}
+.view {
+    padding-left: 550px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.view button {
+    text-decoration: none;
+    color: white;
+    font-family: merienda;
+
 }
