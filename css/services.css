@@ -103,3 +103,16 @@ button {
 .First {
     margin-left: 400px;
 }
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: merienda;
+}
+.view {
+    padding-left: 530px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.view :hover {
+    transform: translateX(5px);
+}

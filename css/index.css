@@ -92,6 +92,10 @@ button a {
     color: white;
     font-family: merienda;
 }
+.view :hover {
+    transform: translateX(5px);
+    
+}
 .container2 img {
     width: 100%;
     height: 430px;
