@@ -8,6 +8,7 @@
     display: flex;
     list-style: none;
     gap: 20px;
+    font-family: roboto;
     font-weight: 400;
     font-size: large;
     float: right;
@@ -39,6 +40,30 @@
 .logo {
     padding-left: 40px;
 }
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* width: 100%;
+    height: 100vh; */
+    z-index: -1;
+    /* background-size: cover; */
+}
+@media (min-aspect-ratio:16/9){
+    .video {
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .video {
+        width: auto;
+        height: 100%;
+
+    }
+}
+
 .conclusion p {
     background-color: rgb(247, 63, 63);
     padding-left: 500px;
@@ -50,7 +75,7 @@
     
 }
 form {
-    background-color:  rgb(233, 240, 238);
+    /* background-color:  rgb(233, 240, 238); */
     position: absolute;
     top: 30%;
     left: 35%;
@@ -61,12 +86,13 @@ form {
     font-family: merienda;
     font-weight: 400;
     padding: 20px 80px;
+    color: white;
  }
 .texts input {
     background-color: rgb(241, 238, 238);
     border-radius: 10px;
     padding: 10px 60px;
-    border-color: rgb(194, 191, 191) ;
+    border-color: rgb(241, 238, 238);
  }
 
 .button input {
@@ -80,4 +106,9 @@ form {
 }
 .button {
     padding-left: 60px;
+}
+label {
+    font-family: roboto;
+    font-weight: 400;
+    color: white;
 }

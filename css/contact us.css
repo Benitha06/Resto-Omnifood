@@ -1,24 +1,54 @@
 * {
     margin: 0;
 }
+.body {
+    width: 100%;
+    height: 100vh;
+}
 form {
     position: absolute;
     top: 17%;
     left: 35%;
-    background-color:  rgb(233, 240, 238);
+    /* background-color:  rgb(233, 240, 238); */
     padding-left: 40px;
     border-radius: 10px;
 }
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* width: 100%;
+    height: 100vh; */
+    z-index: -1;
+    /* background-size: cover; */
+}
+@media (min-aspect-ratio:16/9){
+    .video {
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .video {
+        width: auto;
+        height: 100%;
+
+    }
+}
+
 form p {
     font-family: merienda;
     font-weight: 400;
     padding-left: 20px;
+    color: white;
     
 }
 .nav-bar ul {
     display: flex;
     list-style: none;
     gap: 20px;
+    font-family: roboto;
     font-weight: 400;
     font-size: large;
     float: right;
@@ -66,6 +96,7 @@ form p {
 label {
     font-family: roboto;
     font-weight: 400;
+    color: white;
 }
 .conclusion p {
     background-color: rgb(247, 63, 63);

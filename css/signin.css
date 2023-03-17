@@ -6,6 +6,7 @@
     display: flex;
     list-style: none;
     gap: 20px;
+    font-family: roboto;
     font-weight: 400;
     font-size: large;
     float: right;
@@ -47,8 +48,31 @@
     width: 100%;
     
 }
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* width: 100%;
+    height: 100vh; */
+    z-index: -1;
+    /* background-size: cover; */
+}
+@media (min-aspect-ratio:16/9){
+    .video {
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .video {
+        width: auto;
+        height: 100%;
+
+    }
+}
 form {
-    background-color:  rgb(233, 240, 238);
+    /* background-color:  rgb(233, 240, 238); */
     position: absolute;
     top: 30%;
     left: 35%;
@@ -78,4 +102,9 @@ form {
 }
 .button {
     padding-left: 60px;
+}
+label {
+    font-family: roboto;
+    font-weight: 400;
+    color: white;
 }
