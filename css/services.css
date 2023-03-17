@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 400;
+    font-size: large;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-bar ul :hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+.nav-bar {
+    background-color: rgb(233, 240, 238);
+    width:100% ;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding-left: 40px;
+}
+h1 {
+    padding: 20px 80px;
+    font-family: merienda;
+    font-weight: 500;
+}
+h2 {
+    padding: 20px 60px;
+    font-family: merienda;
+    font-weight: 400;
+}
+p {
+    font-family: roboto;
+    font-weight: 400;
+    /* padding: 20px 30px; */
+}
+.services {
+    margin-left: 50px ;
+}
+.two-people {
+    display: flex;
+    gap: 300px;
+}
+.outside img {
+    margin-top: 70px;
+}
+.inside {
+    margin-left: 50px;
+}
+.family {
+     margin-left: 390px;
+}
+.privacy {
+    display: flex;
+    gap: 300px;
+}
+button {
+    padding: 10px 50px;
+    background-color: red;
+    color: white;
+    font-family: merienda;
+    border-radius: 10px;
+    border-color: red;
+}
+.Tton {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.conclusion p {
+    background-color: rgb(247, 63, 63);
+    padding-left: 500px;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+.go {
+    margin-left: 300px;
+}
+.deliver {
+    margin-left: 300px;
+}
+.First {
+    margin-left: 400px;
+}

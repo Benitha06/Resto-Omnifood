@@ -32,9 +32,17 @@ body {
     
 }
 .nav-bar {
-    background-color: rgb(234, 234, 236);
+    background-color: rgb(233, 240, 238);
     width:100% ;
     height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding-left: 40px;
 }
 .container {
     background-color: white;
@@ -74,6 +82,14 @@ button {
     color: white;
     border-color: red;
     border-radius: 10px;
+    text-decoration: none;
+    font-family: merienda;
+
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: merienda;
 }
 .container2 img {
     width: 100%;
@@ -112,7 +128,7 @@ h2 {
     
 }
 .conclusion p {
-    background-color: red;
+    background-color: rgb(247, 63, 63);
     padding-left: 500px;
     color: white;
     position: fixed;
@@ -132,32 +148,32 @@ h2 {
     gap: 20px;
 }
 .product-1 {
-    background-color: blue;
+    background-color: white;
     width: 23%;
     
     
 }
 .product-2 {
-    background-color: blue;
+    background-color: white;
     width: 23%;
     
     
 }
 .product-3 {
-    background-color: blue;
-    width: 20%;
+    background-color: white;
+    width: 23%;
     
     
 }
 .product-4 {
-    background-color: blue;
-    width: 20%;
+    background-color: white;
+    width: 23%;
     
     
 }
 .product-1 img {
     width: 90%;
-    height: 150px;
+    height: 200px;
     padding-left: 10px;
 }
 .btn {
@@ -166,17 +182,17 @@ h2 {
 }
 .product-2 img {
     width: 90%;
-    height: 150px;
+    height: 200px;
     padding-left: 10px;
 }
 .product-3 img {
     width: 90%;
-    height: 150px;
+    height: 200px;
     padding-left: 10px;
 }
 .product-4 img {
     width: 90%;
-    height: 150px;
+    height: 200px;
     padding-left: 10px;
 }
 .view {
@@ -184,9 +200,18 @@ h2 {
     padding-top: 20px;
     padding-bottom: 30px;
 }
-.view button {
+.view button a {
     text-decoration: none;
     color: white;
     font-family: merienda;
 
+}
+.first img {
+    margin-left: -59%;
+}
+.second img {
+    margin-left: 84%;
+}
+.third img {
+    margin-left: -59%;
 }
