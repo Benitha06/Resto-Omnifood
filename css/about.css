@@ -80,4 +80,10 @@ p {
     background-color: red;
     color: white;
     font-family: merienda;
+    text-decoration: none;
+}
+button a {
+    color: white;
+    font-family: merienda;
+    text-decoration: none;
 }
