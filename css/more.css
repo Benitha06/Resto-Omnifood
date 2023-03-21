@@ -7,34 +7,40 @@
 } */
 .foods {
     display: flex;
+    justify-content: space-between;
 }
 .african {
-    margin-left: 410px;
-    margin-top: -24% ;
+    margin-left: 540px;
+    margin-top: 3% ;
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
 }
 .desserts {
     display: flex;
+    justify-content: space-between;
 
 }
 .kinda {
-    margin-left: 390px;
-    margin-top: -22% ;
+    margin-left: 540px;
+    margin-top: 3% ;
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
 }
 .appetizer {
     display: flex;
-    gap: 20px;
+     justify-content: space-between;
+     
 }
 .drinks {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+}
 
-}
-.juices {
-     margin-top: -21%  ;
-}
 .tea {
-    margin-left: 640px;
-    margin-top: -15% ;
+    margin-left: 20px;
+   
 }
 .nav-bar ul {
     display: flex;
@@ -72,13 +78,117 @@
     display: flex;
     justify-content: space-between;
 }
-.conclusion p {
+.conclusion {
+    /* margin: 10px 500px; */
     background-color: rgb(247, 63, 63);
+     position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 90px;
+}
+.conclusion p {
+    
     padding-left: 500px;
     color: white;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
+   
+}
+span {
+    color: white;
+    padding-left: 10px;
     
+}
+h1 {
+    font-family: merienda;
+    font-weight: 500;
+}
+h2 {
+    font-family: merienda;
+    font-weight: 400;
+    text-align: center;
+}
+p {
+    font-family: roboto;
+    font-weight: 400;
+    padding-left: 20px;
+}
+img{
+    padding-left: 6px;
+}
+button {
+    padding: 5px 25px;
+    background-color:red ;
+    color: white;
+    border-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: merienda;
+
+}
+.Tton {
+    padding-left: 50px;
+}
+.italian {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.chinese {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.korean {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.cupcake {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.saksuka {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.Berry {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.salads {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.soup {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.milk {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.juices {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.bubble {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
+}
+.tea {
+    background-color: rgb(233, 240, 238);
+    width: 360px;
+    border-radius: 10px;
 }
