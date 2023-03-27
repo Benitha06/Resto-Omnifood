@@ -122,6 +122,11 @@ h2 {
 .one {
     padding-top: 60px;
 }
+.page img {
+    width: 290px;
+    height: 220px;
+
+}
 .two {
     padding-top: 60px;
 }
@@ -142,6 +147,9 @@ h2 {
     padding-left: 650px;
     color: white;
    
+}
+.conclusion h2 {
+    padding-left: 650px;
 }
 span {
     color: white;
@@ -209,6 +217,7 @@ span {
     padding-left: 550px;
     padding-top: 20px;
     padding-bottom: 30px;
+    margin-left: 70px;
 }
 .view button a {
     text-decoration: none;
@@ -224,4 +233,251 @@ span {
 }
 .third img {
     margin-left: -59%;
+}
+.contacts {
+    display: flex; 
+    margin-left: 500px; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+.nav-bar ul {
+    display: block;
+    /* list-style: none; */
+    font-weight: 400;
+    font-size: medium;
+    float: left;
+    margin-top: 5px;
+    margin-left: 40px;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+
+}
+.nav-bar {
+    background-color: rgb(233, 240, 238);
+    width:100% ;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    justify-content: space-between;
+}
+.logo {
+    padding-left: 20px;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    line-height: 20px;
+    margin-top: 20%;
+}
+.container {
+    background-color: white;
+    width: 100%;
+    height: 88vh;
+    display: block;
+    /* text-align: space; */
+    
+}
+.container1 {
+    background-color: white;
+    width: 100%;
+    height: 410px;
+}
+.container2 {
+    background-color: white;
+    width:100%;
+    height: 300px;
+}
+.container1 h1 {
+    font-family: merienda;
+    font-weight: 400;
+    color: black;
+    padding-top: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+    font-size: medium;
+}
+.container p {
+    font-family: roboto;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    line-height: 15px;
+}
+button {
+    padding: 3px 12px;
+    background-color:red ;
+    color: white;
+    border-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: merienda;
+
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: merienda;
+}
+.view :hover {
+    transform: translateX(5px);
+    
+}
+.container2 img {
+    width: 100%;
+    height: 300px;
+}
+.first {
+    display: block;
+    justify-content: space-between;
+}
+.second {
+    margin-top: 20px;
+    display: block;
+    justify-content: space-between;
+}
+.third {
+    margin-top: 20px;
+    display: block;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+.page {
+   margin-top: 6%; 
+}
+.page p {
+    padding-left: 5px;
+}
+h2 {
+    font-family: merienda;
+    font-weight: 400;
+    padding-left: 150px;
+}
+.one {
+    padding-top: 60px;
+
+}
+.two {
+    padding-top: 10px;
+}
+.three {
+    padding-top: 20px;
+}
+
+.conclusion {
+    /* margin: 10px 500px; */
+    background-color: rgb(247, 63, 63);
+     position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 120px;
+}
+.conclusion p {
+        
+    padding-left: 60px;
+    color: white;
+    font-size: 15px;
+   
+}
+.conclusion h2 {
+    padding-left: 0px;
+    margin-left: 50px; 
+    margin-top: 2px;
+}
+.contacts {
+    display: block; 
+    margin-left: 40px; 
+    margin-top: 5px; 
+    margin-bottom: 4px;
+    font-size: medium;
+}
+span {
+    color: white;
+    padding-left: 10px;
+    
+}
+#products {
+    background-color: rgb(233, 240, 238);
+    width: 100%;
+    height: 1900px;
+    padding-left: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product-1 {
+    background-color: white;
+    width: 90%;
+    
+    
+}
+.product-2 {
+    background-color: white;
+    width: 90%;
+    
+    
+}
+.product-3 {
+    background-color: white;
+    width: 90%;
+    
+    
+}
+.product-4 {
+    background-color: white;
+    width: 90%;
+    height: 520px;
+    
+    
+}
+.product-1 img {
+    width: 90%;
+    height: 200px;
+    padding-left: 10px;
+}
+.btn {
+    padding-left: 36%;
+
+}
+.product-2 img {
+    width: 90%;
+    height: 200px;
+    padding-left: 10px;
+}
+.product-3 img {
+    width: 90%;
+    height: 200px;
+    padding-left: 10px;
+}
+.product-4 img {
+    width: 90%;
+    height: 300px;
+    padding-left: 10px;
+}
+.view {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+}
+.view button a {
+    text-decoration: none;
+    color: white;
+    font-family: merienda;
+
+}
+
+.page img {
+    width: 80%;
+    height: 220px;
+    margin-left: 10%;
+}
+    
 }

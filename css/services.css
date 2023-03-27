@@ -126,3 +126,142 @@ button a {
 .view :hover {
     transform: translateX(5px);
 }
+.two-people img {
+    width: 390px; 
+    height: 350px; 
+    
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .services {
+        width: 100%;
+    }
+
+    .nav-bar ul {
+        display: block;
+        /* list-style: none; */
+        font-weight: 400;
+        font-size: medium;
+        float: left;
+        margin-top: 5px;
+        margin-left: -5px;
+        justify-content: space-between;
+        /* margin-bottom: 10px; */
+    
+    }
+    .nav-bar {
+        background-color: rgb(233, 240, 238);
+        width:100% ;
+        height: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        justify-content: space-between;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    h1 {
+        padding: 20px 60px;
+        font-family: merienda;
+        font-weight: 500;
+    }
+    h2 {
+        padding: 20px 55px;
+        font-family: merienda;
+        font-weight: 400;
+    }
+    p {
+        font-family: roboto;
+        font-weight: 400;
+        /* padding: 20px 30px; */
+    }
+    .services {
+        margin-left: 0px ;
+    }
+    .two-people {
+        width: 100%;
+        display: block;
+        margin-left: 20px;
+
+    }
+    .outside img {
+        margin-top: 70px;
+    }
+    .inside {
+        margin-left: 0;
+    }
+    .family {
+         margin-left: 20px;
+         margin-top: 40px;
+    }
+    .privacy {
+        display: block;
+        gap: 0px;
+    }
+    button {
+        padding: 10px 50px;
+        background-color: red;
+        color: white;
+        font-family: merienda;
+        border-radius: 10px;
+        border-color: red;
+    }
+    .Tton {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .conclusion {
+        /* margin: 10px 500px; */
+        background-color: rgb(247, 63, 63);
+         position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 90px;
+    }
+    .conclusion p {
+        
+        padding-left: 650px;
+        color: white;
+       
+    }
+    span {
+        color: white;
+        padding-left: 10px;
+        
+    }
+    .go {
+        margin-left: 300px;
+    }
+    .deliver {
+        margin-left: 300px;
+    }
+    .First {
+        margin-left: 30px;
+        margin-top: 30%;
+    }
+    button a {
+        text-decoration: none;
+        color: white;
+        font-family: merienda;
+    }
+    .view {
+        padding-left: 530px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .view :hover {
+        transform: translateX(5px);
+    }
+
+    .two-people img {
+        width: 90%;
+        height: 220px;
+    }
+    
+    
+}
