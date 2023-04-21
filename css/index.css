@@ -66,6 +66,7 @@ body {
     /* background-color: white; */
     width:35%;
     height: 420px;
+    margin-left: 0px;
 }
 .container1 h1 {
     font-family: merienda;
@@ -246,26 +247,9 @@ span {
     margin-bottom: 5px;
 }
 
-.color {
-    float: right;
-    margin-right: 20px;
-    margin-top: -30px;
-  
-}
-.color button {
- background-color: white;
-    border: 1px solid gray ;
-    padding: 1px 4px 1px -3%;
-}
 
-.color i {
 
-    text-align: center;
-    color: black;
-    font-size: x-large;
-   
-   
-}
+
 
 .menu i { color: black;
          font-size: xx-large;
@@ -282,7 +266,7 @@ span {
 @media screen and (max-width: 800px) {
 
 .nav-bar ul {
-    display: none;
+    display: block;
     /* list-style: none; */
     font-weight: 400;
     font-size: medium;
