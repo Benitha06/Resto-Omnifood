@@ -91,11 +91,14 @@ button {
     bottom: 0px;
     right: 0px;
     width: 100%;
-    height: 90px;
+    height: 50px;
+}
+#im{
+    margin-left: -200px;
 }
 .conclusion p {
     
-    padding-left: 650px;
+    padding-left: 450px;
     color: white;
    
 }
@@ -131,6 +134,18 @@ button a {
     height: 350px; 
     
 }
+.menu i { color: black;
+    font-size: xx-large;
+}
+.menu{
+display: none;
+}
+#cross {
+font-size: xx-large;
+color: black;
+display: none;
+}
+
 
 
 @media screen and (max-width: 800px) {
@@ -140,7 +155,7 @@ button a {
     }
 
     .nav-bar ul {
-        display: block;
+        display: none;
         /* list-style: none; */
         font-weight: 400;
         font-size: medium;
@@ -163,6 +178,11 @@ button a {
     }
     .logo {
         padding-left: 20px;
+    }
+    .logo img {
+        width: 150px;
+        height: 70px;
+        padding-top: -30%;
     }
     h1 {
         padding: 20px 60px;
@@ -221,7 +241,7 @@ button a {
         bottom: 0px;
         right: 0px;
         width: 100%;
-        height: 90px;
+        height: 60px;
     }
     .conclusion p {
         
@@ -262,6 +282,20 @@ button a {
         width: 90%;
         height: 220px;
     }
-    
+    .menu i { color: black;
+        font-size: xx-large;
+    }
+    .menu{
+    display: block;
+    }
+    #cross {
+        font-size: xx-large;
+        color: black;
+        display: block;
+        float: right;
+       position: absolute;
+       top: 35%;
+       left: 80%;
+    }
     
 }

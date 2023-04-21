@@ -45,13 +45,16 @@
     bottom: 0px;
     right: 0px;
     width: 100%;
-    height: 90px;
+    height: 50px;
 }
 .conclusion p {
     
-    padding-left: 650px;
+    padding-left: 450px;
     color: white;
    
+}
+#im{
+    margin-left: -200px;
 }
 span {
     color: white;
@@ -124,9 +127,9 @@ label {
     /* padding-left: 40px; */
     border-radius: 10px;
     width: 400px;
-    height: 400px;
+    height: 390px;
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 30%;
     opacity: 0.8;
 }

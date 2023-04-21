@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resto & Omnifood</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="body">
+    <div id="body">
 
         <!-- <video autoplay loop muted playsinline class="video">
             <source src="/Image/video.mp4.mp4" type="video/mp4">
@@ -21,11 +21,16 @@
 
 
     <header class="header">
-      <nav class="nav-bar">
-       <div class="logo">
-            <img src="./Image/logo-removebg-preview.png" alt="" width="100px" height="60px">
+        <!-- <div class="menu" ><i class='bx bx-menu'></i></div> -->
+         
+      <nav class="nav-bar" >
+       
+       <div class="logo" >
+            <img src="./Image/logo-removebg-preview.png" alt=""  onclick="men()">
         </div>
-        <ul>
+    
+        <ul id="sign">
+           <div id="cross" onclick="move()"><i class='bx bx-x'></i></div>
             <li><a href="index.html">Home</a> </li>
             <li><a href="about.html">About</a> </li>
             <li><a href="services.html">Services</a> </li>
@@ -35,7 +40,11 @@
         </ul>
 
       </nav> <br> <br> <br> <br> <br>
-     <div class="container">
+       <div class="color" >
+      <button onclick="light(), ligh()"><i class='bx bx-sun'></i></button ></div>
+      
+    
+      <div class="container">
         
         <div class="container2"><img src="./Image/pretty food.jpeg" alt=""></div>
         
@@ -48,9 +57,9 @@
         <button style="margin-left: 10px;">Order now</button>
         <button style="margin-left: 18px;"><a href="more.html">View more products</a> </button></p>
      </div>
-     
-    
     </div>
+    
+    
     </header>
     <div class="page">
         <div class="first">
@@ -89,13 +98,13 @@
         </div> <br> <br>
         <div class="conclusion">
             <p style="font-family: merienda;">Make memories while you dine.</p> 
-              <p style="margin-left: -100px;"> 
+              <p > 
                 <div class="contacts" >
-               <div style="padding-left: 20px; color: white; font-family: roboto;"> Phone: +250780558356</div>
+               <div style="color: white; font-family: roboto;" id="im"> Phone: +250780558356</div>
                <div style="padding-left: 20px; color: white; font-family: roboto;">Linkedin: Resto&Omnifoods</div> 
                <div style="padding-left: 20px; color: white; font-family: roboto;"> Twitter: Resto&Omnifood</div></div></p> 
             
-            <h2 style="color: white; font-family: merienda;"><strong>RESTO & OMNIFOOD</strong></h2>
+            
         </div>
 
 
@@ -131,5 +140,10 @@
         <button><a href="more.html">View more products.</a></button> 
     </div> 
 </div> <br> <br> <br> <br>
+
+<script src="./js/index.js">
+   
+</script>
+
 </body>
 </html>
